@@ -1,0 +1,16 @@
+def on_button_pressed_a():
+    music.play_melody("C - E - E - E - ", 444)
+    music.play_melody("D C G - G - G - ", 444)
+    music.play_melody("G F E - E - E - ", 444)
+    music.play_melody("D C G - G - G - ", 444)
+    music.play_melody("G F E F G - F - ", 444)
+    music.play_melody("E - D - - - - - ", 444)
+    music.play_melody("E - G - F E F - ", 444)
+    music.play_melody("G - A - G - - - ", 444)
+    music.play_melody("E - G - F E F - ", 444)
+    music.play_melody("G - A - G - - - ", 444)
+    music.play_melody("F - E - D C D D ", 444)
+    music.play_melody("- C - C C C C - ", 444)
+input.on_button_pressed(Button.A, on_button_pressed_a)
+
+basic.show_string("Wer Da?")
