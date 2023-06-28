@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    for (let index = 0; index < 4; index++) {
+    for (let index = 0; index < 2; index++) {
         music.playMelody("C - E - E - E - ", 444)
         music.playMelody("D C G - G - G - ", 444)
         music.playMelody("G F E - E - E - ", 444)
